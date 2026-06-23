@@ -42,20 +42,24 @@ header > .image {
 
 header > .image > h1 {
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
+    backdrop-filter: blur(1px);
     font-family: var(--Header);
+    font-weight: 400;
 }
 
 header > .about {
+
+    display: flex;
+    justify-content: center;
+
     border-radius: 0 8px 8px 0;
     box-shadow: 0 4px 12px grey;
 
-    padding: 3rem 1rem;
-
+    min-height: 15rem;
     max-width: 50%;
 
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 
     font-family: var(--body);
     letter-spacing: 1px;
